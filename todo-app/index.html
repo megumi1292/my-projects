@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOリスト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TODOリスト</h1>
+    <input type="text" id="todoInput" placeholder="新しいTODOを追加">
+    <button id="addTodoButton">追加</button>
+
+     <!-- テーブルの表示部分 -->
+  <table id="todoTable">
+    <thead>
+      <tr>
+        <th>完了</th>
+        <th>内容</th>
+        <th>メモ</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody id="todoTableBody">
+      <!-- JSでここに行を追加 -->
+    </tbody>
+  </table>
+</body>
+<script src="main.js"></script>
+</html>
