@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ねこMBTI診断</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="cat-area">
+      <img src="neko.png" alt="ねこ" class="cat-img" />
+      <div class="speech-bubble" id="question">🐾 準備はいいかにゃ？</div>
+    </div>
+    <div class="button-area">
+      <button onclick="answer('yes')">はい</button>
+      <button onclick="answer('no')">いいえ</button>
+    </div>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
